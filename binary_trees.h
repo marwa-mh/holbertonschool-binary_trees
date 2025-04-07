@@ -1,5 +1,7 @@
 #ifndef B_H
 #define B_H
+#include <stdio.h>
+#include <stdlib.h>
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
