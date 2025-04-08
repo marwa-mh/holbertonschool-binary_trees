@@ -1,3 +1,4 @@
+#include "binary_trees.h"
 /**
  * binary_tree_balance - return the balance for the binary tree
  * @tree: pointer to the root
