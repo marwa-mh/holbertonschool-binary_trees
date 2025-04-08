@@ -2,7 +2,6 @@
 /**
  * binary_tree_height - postorder the binary tree
  * @tree: pointer to the root
- * @func: pointer to a function
  * Return: Nothing
  */
 size_t binary_tree_height(const binary_tree_t *tree)
