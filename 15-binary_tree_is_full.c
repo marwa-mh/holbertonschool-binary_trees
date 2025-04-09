@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include <math.h>
 /**
  * binary_tree_size - return the size the binary tree
  * @tree: pointer to the root
@@ -47,7 +48,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 {
 	size_t height = binary_tree_height(tree);
 	size_t size = binary_tree_size(tree);
-	int total_nodes = (int)pow(2, height + 1) - 1;
+	size_t total_nodes = (size_t)pow(2, height + 1) - 1;
 
 	if (total_nodes == size)
 		return (1);
